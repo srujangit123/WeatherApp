@@ -22,7 +22,7 @@ This is a web App to get the weather and it's description of user desired locati
 
  Before(line 22 in app.js)
  ``` 
- const apikey = "3166d9db25fbb75702756413eafc2fd0";
+ const apikey = "";//
  ```
  
  
