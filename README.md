@@ -2,26 +2,37 @@
 
 This is a web App to get the weather and it's description of user desired location.
 
-<h3>How to use</h3>
-<ul>
-  <li>Download the ZIP file</li>
+ ### How to use
+
+  * Download the ZIP file
   
-  <li>Unzip the file</li>
+  * Unzip the file
   
-  <li>open the index.html with live server using any browser</li>
+  * Open the index.html with live server using any browser
   
-  <li>Enter the desired location</li>
+  * Enter the desired location
   
-  <li>Click submit</li>
+  * Click submit
   
- <h3>Before opening the index.html-></h3>
+ ### Before opening the index.html
  
- Open <a href="openweather.org">Open weather API</a> and crete your account if you don't have then create your own API key or generate. <br>Copy your API key , then head over to app.js file and update the API key.
+ Go to [Open Weather](https://openweather.org) and crete your account if you don't have. Then create your own API key or generate. Copy your API key , then head over to app.js file and update the API key
+
+
+
+ Before(line 22 in app.js)
+ ``` 
+ const apikey = "3166d9db25fbb75702756413eafc2fd0";
+ ```
  
- <br>
- <h3>Frameworks, API's used</h3>
- <ol>
- <li>Node.js</li>
- <li>Express.js</li>
- <li>OpenWeather API</li>
- </ol>
+ 
+ After
+ ```
+  const apikey = {yourAPIkey};
+ ```
+ 
+ 
+#### Frameworks and API used
+1. Node.js
+2. Express.js
+3. Open Weather API
