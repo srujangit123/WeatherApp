@@ -4,7 +4,7 @@ This is a web App to get the weather and it's description of user desired locati
 
  ### How to use
 
-  * Download the ZIP file
+  * Download the ZIP file or clone it to your pc.
   
   * Unzip the file
   
