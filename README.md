@@ -1,6 +1,6 @@
 # WeatherApp
 
-This is a web App to get the weather and it's description of user desired location.
+This is a web App to get the weather and the description of user desired location.
 
  ### How to use
 
