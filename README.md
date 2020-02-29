@@ -16,7 +16,7 @@ This is a web App to get the weather and the description of user desired locatio
   
  ### Before opening the index.html
  
- Go to [Open Weather](https://openweather.org) and crete your account if you don't have. Then create your own API key or generate. Copy your API key , then head over to app.js file and update the API key
+ Go to [Open Weather](https://openweather.org) and crete an account if you don't have. Then create your own API key or generate. Copy your API key , then head over to app.js file and update the API key
 
 
 
