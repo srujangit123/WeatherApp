@@ -8,7 +8,7 @@ This is a web App to get the weather and the description of user desired locatio
   
   * Unzip the file
   
-  * Open the index.html with live server using any browser
+  * Open https://localhost:3000
   
   * Enter the desired location
   
