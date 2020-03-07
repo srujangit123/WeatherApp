@@ -31,7 +31,7 @@ This is a web App to get the weather and the description of user desired locatio
   const apikey = {yourAPIkey};
  ```
  
- 
+ To run the App install all the required packages like express.js, body-parser through npm.
 #### Frameworks and API used
 1. Node.js
 2. Express.js
