@@ -8,5 +8,10 @@
   },
   "author": "Srujan",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0"
+  }
 }
