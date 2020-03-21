@@ -7,6 +7,8 @@ This is a web App to get the weather and the description of user desired locatio
   * Download the ZIP file or clone it to your pc.
   
   * Unzip the file
+  * Run ``npm install ``
+  * Now start the server ``node app.js``
   
   * Open https://localhost:3000
   
