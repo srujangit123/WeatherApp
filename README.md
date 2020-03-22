@@ -10,11 +10,12 @@ This is a web App to get the weather and the description of user desired locatio
   * Run ``npm install ``
   * All the required packages will be installed by running the above code.
   * Create a file named .env 
-  *  Go to [Open Weather](https://openweather.org) and crete an account if you don't have. Then create your own API key or generate. Copy your API key , then head over to .env file and add your the API key.
+  * Go to [Open Weather](https://openweather.org) and crete an account if you don't have. Then create your own API key or generate. Copy your API key , then head over to .env file and add your the API key.
 
  Paste this code in .env file and add your API key.
 
  `` API_KEY={yourAPIKey} ``
+
 
   * Now start the server ``node app.js``
   
@@ -24,8 +25,6 @@ This is a web App to get the weather and the description of user desired locatio
   
   * Click submit
   
- ### Before opening the localhost
- 
 
 
 
