@@ -25,22 +25,22 @@ app.post("/", function(req, res){
 
   https.get(url, function(response){
     response.on("data", function(data){
-      const weatherData = JSON.parse(data);
+      const WeatherData = JSON.parse(data);
 
-      const temp = weatherData.main.temp;
+      const temp = WeatherData.main.temp;
 
-      const weatherDescription = weatherData.weather[0].description
+      const WeatherDescription = WeatherData.weather[0].description
 
-      const weatherIcon = weatherData.weather[0].icon;
+      const weatherIcon = WeatherData.weather[0].icon;
 
       const iconurl = "http://openweathermap.org/img/wn/" + weatherIcon +"@2x.png";
 
 
-      res.write("<h1>" +weatherDescription + "</h1>");
+      res.write("<h1>" +WeatherDescription + "</h1>");
 
-      res.write("<h1>The temperature in " + query + " is " + temp + " Kelvin</h1>");
+      res.write("<h1>The Temperature in " + query + " is " + temp + " Kelvin</h1>");
 
-      res.write("<img src = " + iconurl + ">");
+      res.write("<img source = " + iconurl + ">");
 
       res.send();
     });
